@@ -2,6 +2,7 @@ name: run-cross-platform-container
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   qemu-example:
